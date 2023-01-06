@@ -3,10 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33DDBF1FB6859C2C3B078E2C /* Pods_World_Tech_IT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86EFFA1465CF3049C76C7DF /* Pods_World_Tech_IT.framework */; };
+		E90C34C725D6A0E10048E387 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90C34C625D6A0E10048E387 /* LaunchViewController.swift */; };
+		E922585D25E5385D0097B0D8 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E922585C25E5385D0097B0D8 /* ProfileVC.swift */; };
+		E92309EA25B73615003E6FD2 /* ReceiptVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92309E925B73615003E6FD2 /* ReceiptVC.swift */; };
+		E923C3FF25B7FE2500B13F69 /* InvoiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E923C3FE25B7FE2500B13F69 /* InvoiceVC.swift */; };
+		E923C40325B7FE4400B13F69 /* InvoiceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E923C40225B7FE4400B13F69 /* InvoiceCollectionViewCell.swift */; };
+		E923C40725B80D8100B13F69 /* CustomerStatementVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E923C40625B80D8100B13F69 /* CustomerStatementVC.swift */; };
+		E923C40B25B80DA600B13F69 /* CustomerStatementTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E923C40A25B80DA600B13F69 /* CustomerStatementTableViewCell.swift */; };
+		E923C40E25B81DAC00B13F69 /* AfterInvoiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E923C40D25B81DAC00B13F69 /* AfterInvoiceVC.swift */; };
+		E923C41125B8349700B13F69 /* CreateInvoiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E923C41025B8349700B13F69 /* CreateInvoiceVC.swift */; };
+		E923C41425B834C000B13F69 /* InvoiceSummaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E923C41325B834C000B13F69 /* InvoiceSummaryVC.swift */; };
+		E923C41725B8377500B13F69 /* InvoiceSummaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E923C41625B8377500B13F69 /* InvoiceSummaryTableViewCell.swift */; };
+		E923C41A25B8443800B13F69 /* ReceiptsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E923C41925B8443800B13F69 /* ReceiptsTableViewCell.swift */; };
+		E923C41D25B8446A00B13F69 /* ReceiptsDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E923C41C25B8446A00B13F69 /* ReceiptsDataVC.swift */; };
+		E9715BF025C91A6D002682D1 /* String Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9715BEF25C91A6D002682D1 /* String Validations.swift */; };
+		E9AFA0EB25E8D9AE00E74070 /* InvoiceSummaryCustomerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AFA0EA25E8D9AE00E74070 /* InvoiceSummaryCustomerTableViewCell.swift */; };
+		E9B84F9D25EF6934005D599A /* CreateCustomerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B84F9C25EF6934005D599A /* CreateCustomerVC.swift */; };
+		E9CB282E25C6FF1B00F4D016 /* Customers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CB282D25C6FF1B00F4D016 /* Customers.swift */; };
 		E9DE3D7025A805CF006B9910 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DE3D6F25A805CF006B9910 /* AppDelegate.swift */; };
 		E9DE3D7225A805CF006B9910 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DE3D7125A805CF006B9910 /* SceneDelegate.swift */; };
 		E9DE3D7425A805CF006B9910 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DE3D7325A805CF006B9910 /* ViewController.swift */; };
@@ -14,9 +32,35 @@
 		E9DE3D7A25A805CF006B9910 /* World_Tech_IT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9DE3D7825A805CF006B9910 /* World_Tech_IT.xcdatamodeld */; };
 		E9DE3D7C25A805D2006B9910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9DE3D7B25A805D2006B9910 /* Assets.xcassets */; };
 		E9DE3D7F25A805D2006B9910 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9DE3D7D25A805D2006B9910 /* LaunchScreen.storyboard */; };
+		E9DE3D8925A8077E006B9910 /* Candara.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9DE3D8825A8077E006B9910 /* Candara.ttf */; };
+		E9DE3D8C25A808A0006B9910 /* CANDARAB.TTF in Resources */ = {isa = PBXBuildFile; fileRef = E9DE3D8B25A808A0006B9910 /* CANDARAB.TTF */; };
+		E9DE3D9025A82D3B006B9910 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DE3D8F25A82D3B006B9910 /* HomeViewController.swift */; };
+		E9DE3D9425A83371006B9910 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DE3D9325A83371006B9910 /* UIColor.swift */; };
+		E9E2DBFF25B70A3800030B62 /* ContractVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E2DBFE25B70A3800030B62 /* ContractVC.swift */; };
+		E9E2DC0625B7100A00030B62 /* EnterpriseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E2DC0525B7100A00030B62 /* EnterpriseTableViewCell.swift */; };
+		E9E2DC0925B71C8C00030B62 /* AfterEnterpriseInvoiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E2DC0825B71C8C00030B62 /* AfterEnterpriseInvoiceVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07932D167BE3E1575B27513F /* Pods-World Tech IT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-World Tech IT.debug.xcconfig"; path = "Target Support Files/Pods-World Tech IT/Pods-World Tech IT.debug.xcconfig"; sourceTree = "<group>"; };
+		E86EFFA1465CF3049C76C7DF /* Pods_World_Tech_IT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_World_Tech_IT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90C34C625D6A0E10048E387 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		E922585C25E5385D0097B0D8 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		E92309E925B73615003E6FD2 /* ReceiptVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptVC.swift; sourceTree = "<group>"; };
+		E923C3FE25B7FE2500B13F69 /* InvoiceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceVC.swift; sourceTree = "<group>"; };
+		E923C40225B7FE4400B13F69 /* InvoiceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceCollectionViewCell.swift; sourceTree = "<group>"; };
+		E923C40625B80D8100B13F69 /* CustomerStatementVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerStatementVC.swift; sourceTree = "<group>"; };
+		E923C40A25B80DA600B13F69 /* CustomerStatementTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerStatementTableViewCell.swift; sourceTree = "<group>"; };
+		E923C40D25B81DAC00B13F69 /* AfterInvoiceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterInvoiceVC.swift; sourceTree = "<group>"; };
+		E923C41025B8349700B13F69 /* CreateInvoiceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateInvoiceVC.swift; sourceTree = "<group>"; };
+		E923C41325B834C000B13F69 /* InvoiceSummaryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceSummaryVC.swift; sourceTree = "<group>"; };
+		E923C41625B8377500B13F69 /* InvoiceSummaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceSummaryTableViewCell.swift; sourceTree = "<group>"; };
+		E923C41925B8443800B13F69 /* ReceiptsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptsTableViewCell.swift; sourceTree = "<group>"; };
+		E923C41C25B8446A00B13F69 /* ReceiptsDataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptsDataVC.swift; sourceTree = "<group>"; };
+		E9715BEF25C91A6D002682D1 /* String Validations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String Validations.swift"; sourceTree = "<group>"; };
+		E9AFA0EA25E8D9AE00E74070 /* InvoiceSummaryCustomerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceSummaryCustomerTableViewCell.swift; sourceTree = "<group>"; };
+		E9B84F9C25EF6934005D599A /* CreateCustomerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCustomerVC.swift; sourceTree = "<group>"; };
+		E9CB282D25C6FF1B00F4D016 /* Customers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customers.swift; sourceTree = "<group>"; };
 		E9DE3D6C25A805CF006B9910 /* World Tech IT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "World Tech IT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9DE3D6F25A805CF006B9910 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9DE3D7125A805CF006B9910 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +70,14 @@
 		E9DE3D7B25A805D2006B9910 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9DE3D7E25A805D2006B9910 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9DE3D8025A805D2006B9910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9DE3D8825A8077E006B9910 /* Candara.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Candara.ttf; sourceTree = "<group>"; };
+		E9DE3D8B25A808A0006B9910 /* CANDARAB.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = CANDARAB.TTF; sourceTree = "<group>"; };
+		E9DE3D8F25A82D3B006B9910 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E9DE3D9325A83371006B9910 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		E9E2DBFE25B70A3800030B62 /* ContractVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContractVC.swift; sourceTree = "<group>"; };
+		E9E2DC0525B7100A00030B62 /* EnterpriseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterpriseTableViewCell.swift; sourceTree = "<group>"; };
+		E9E2DC0825B71C8C00030B62 /* AfterEnterpriseInvoiceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterEnterpriseInvoiceVC.swift; sourceTree = "<group>"; };
+		F853426F513497D207B1530D /* Pods-World Tech IT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-World Tech IT.release.xcconfig"; path = "Target Support Files/Pods-World Tech IT/Pods-World Tech IT.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +85,79 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33DDBF1FB6859C2C3B078E2C /* Pods_World_Tech_IT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88833119815C48F6D0459BF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E86EFFA1465CF3049C76C7DF /* Pods_World_Tech_IT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E922585B25E538420097B0D8 /* Profile Tab */ = {
+			isa = PBXGroup;
+			children = (
+				E922585C25E5385D0097B0D8 /* ProfileVC.swift */,
+			);
+			path = "Profile Tab";
+			sourceTree = "<group>";
+		};
+		E92309E725B735BE003E6FD2 /* Receipt */ = {
+			isa = PBXGroup;
+			children = (
+				E92309E925B73615003E6FD2 /* ReceiptVC.swift */,
+				E923C41925B8443800B13F69 /* ReceiptsTableViewCell.swift */,
+				E923C41C25B8446A00B13F69 /* ReceiptsDataVC.swift */,
+			);
+			path = Receipt;
+			sourceTree = "<group>";
+		};
+		E923C3FD25B7FE0D00B13F69 /* Invoice */ = {
+			isa = PBXGroup;
+			children = (
+				E923C3FE25B7FE2500B13F69 /* InvoiceVC.swift */,
+				E923C40225B7FE4400B13F69 /* InvoiceCollectionViewCell.swift */,
+				E923C40D25B81DAC00B13F69 /* AfterInvoiceVC.swift */,
+				E923C41025B8349700B13F69 /* CreateInvoiceVC.swift */,
+				E923C41325B834C000B13F69 /* InvoiceSummaryVC.swift */,
+				E923C41625B8377500B13F69 /* InvoiceSummaryTableViewCell.swift */,
+				E9AFA0EA25E8D9AE00E74070 /* InvoiceSummaryCustomerTableViewCell.swift */,
+			);
+			path = Invoice;
+			sourceTree = "<group>";
+		};
+		E923C40525B80D6200B13F69 /* Customer Statement */ = {
+			isa = PBXGroup;
+			children = (
+				E923C40625B80D8100B13F69 /* CustomerStatementVC.swift */,
+				E923C40A25B80DA600B13F69 /* CustomerStatementTableViewCell.swift */,
+				E9B84F9C25EF6934005D599A /* CreateCustomerVC.swift */,
+			);
+			path = "Customer Statement";
+			sourceTree = "<group>";
+		};
+		E9CB282C25C6FEF900F4D016 /* Constants & Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E9CB282D25C6FF1B00F4D016 /* Customers.swift */,
+				E9715BEF25C91A6D002682D1 /* String Validations.swift */,
+			);
+			path = "Constants & Extensions";
+			sourceTree = "<group>";
+		};
 		E9DE3D6325A805CF006B9910 = {
 			isa = PBXGroup;
 			children = (
 				E9DE3D6E25A805CF006B9910 /* World Tech IT */,
 				E9DE3D6D25A805CF006B9910 /* Products */,
+				F6FAB50F54C6A8F3D50848FD /* Pods */,
+				88833119815C48F6D0459BF2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +172,62 @@
 		E9DE3D6E25A805CF006B9910 /* World Tech IT */ = {
 			isa = PBXGroup;
 			children = (
+				E9CB282C25C6FEF900F4D016 /* Constants & Extensions */,
+				E9DE3D8E25A82D25006B9910 /* Home Tab */,
+				E922585B25E538420097B0D8 /* Profile Tab */,
+				E9DE3D8725A8076C006B9910 /* Font */,
 				E9DE3D6F25A805CF006B9910 /* AppDelegate.swift */,
 				E9DE3D7125A805CF006B9910 /* SceneDelegate.swift */,
 				E9DE3D7325A805CF006B9910 /* ViewController.swift */,
+				E90C34C625D6A0E10048E387 /* LaunchViewController.swift */,
 				E9DE3D7525A805CF006B9910 /* Main.storyboard */,
 				E9DE3D7B25A805D2006B9910 /* Assets.xcassets */,
 				E9DE3D7D25A805D2006B9910 /* LaunchScreen.storyboard */,
 				E9DE3D8025A805D2006B9910 /* Info.plist */,
 				E9DE3D7825A805CF006B9910 /* World_Tech_IT.xcdatamodeld */,
+				E9DE3D9325A83371006B9910 /* UIColor.swift */,
 			);
 			path = "World Tech IT";
+			sourceTree = "<group>";
+		};
+		E9DE3D8725A8076C006B9910 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				E9DE3D8825A8077E006B9910 /* Candara.ttf */,
+				E9DE3D8B25A808A0006B9910 /* CANDARAB.TTF */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		E9DE3D8E25A82D25006B9910 /* Home Tab */ = {
+			isa = PBXGroup;
+			children = (
+				E9DE3D8F25A82D3B006B9910 /* HomeViewController.swift */,
+				E9E2DBFD25B70A1800030B62 /* Contracts */,
+				E92309E725B735BE003E6FD2 /* Receipt */,
+				E923C3FD25B7FE0D00B13F69 /* Invoice */,
+				E923C40525B80D6200B13F69 /* Customer Statement */,
+			);
+			path = "Home Tab";
+			sourceTree = "<group>";
+		};
+		E9E2DBFD25B70A1800030B62 /* Contracts */ = {
+			isa = PBXGroup;
+			children = (
+				E9E2DBFE25B70A3800030B62 /* ContractVC.swift */,
+				E9E2DC0525B7100A00030B62 /* EnterpriseTableViewCell.swift */,
+				E9E2DC0825B71C8C00030B62 /* AfterEnterpriseInvoiceVC.swift */,
+			);
+			path = Contracts;
+			sourceTree = "<group>";
+		};
+		F6FAB50F54C6A8F3D50848FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07932D167BE3E1575B27513F /* Pods-World Tech IT.debug.xcconfig */,
+				F853426F513497D207B1530D /* Pods-World Tech IT.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +237,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9DE3D8325A805D2006B9910 /* Build configuration list for PBXNativeTarget "World Tech IT" */;
 			buildPhases = (
+				C201731C5C6F3188F21DCEF1 /* [CP] Check Pods Manifest.lock */,
 				E9DE3D6825A805CF006B9910 /* Sources */,
 				E9DE3D6925A805CF006B9910 /* Frameworks */,
 				E9DE3D6A25A805CF006B9910 /* Resources */,
+				E5DA397B9954C6B16986DC36 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,6 +290,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9DE3D7F25A805D2006B9910 /* LaunchScreen.storyboard in Resources */,
+				E9DE3D8C25A808A0006B9910 /* CANDARAB.TTF in Resources */,
+				E9DE3D8925A8077E006B9910 /* Candara.ttf in Resources */,
 				E9DE3D7C25A805D2006B9910 /* Assets.xcassets in Resources */,
 				E9DE3D7725A805CF006B9910 /* Main.storyboard in Resources */,
 			);
@@ -135,15 +299,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C201731C5C6F3188F21DCEF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-World Tech IT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5DA397B9954C6B16986DC36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-World Tech IT/Pods-World Tech IT-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-World Tech IT/Pods-World Tech IT-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-World Tech IT/Pods-World Tech IT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E9DE3D6825A805CF006B9910 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E923C41D25B8446A00B13F69 /* ReceiptsDataVC.swift in Sources */,
+				E9715BF025C91A6D002682D1 /* String Validations.swift in Sources */,
+				E9E2DC0925B71C8C00030B62 /* AfterEnterpriseInvoiceVC.swift in Sources */,
+				E9E2DBFF25B70A3800030B62 /* ContractVC.swift in Sources */,
+				E9DE3D9025A82D3B006B9910 /* HomeViewController.swift in Sources */,
+				E923C41425B834C000B13F69 /* InvoiceSummaryVC.swift in Sources */,
+				E923C41A25B8443800B13F69 /* ReceiptsTableViewCell.swift in Sources */,
+				E90C34C725D6A0E10048E387 /* LaunchViewController.swift in Sources */,
+				E922585D25E5385D0097B0D8 /* ProfileVC.swift in Sources */,
+				E9DE3D9425A83371006B9910 /* UIColor.swift in Sources */,
+				E9CB282E25C6FF1B00F4D016 /* Customers.swift in Sources */,
+				E923C40725B80D8100B13F69 /* CustomerStatementVC.swift in Sources */,
 				E9DE3D7425A805CF006B9910 /* ViewController.swift in Sources */,
 				E9DE3D7A25A805CF006B9910 /* World_Tech_IT.xcdatamodeld in Sources */,
+				E923C40E25B81DAC00B13F69 /* AfterInvoiceVC.swift in Sources */,
+				E9E2DC0625B7100A00030B62 /* EnterpriseTableViewCell.swift in Sources */,
+				E923C41725B8377500B13F69 /* InvoiceSummaryTableViewCell.swift in Sources */,
 				E9DE3D7025A805CF006B9910 /* AppDelegate.swift in Sources */,
+				E9B84F9D25EF6934005D599A /* CreateCustomerVC.swift in Sources */,
+				E923C40325B7FE4400B13F69 /* InvoiceCollectionViewCell.swift in Sources */,
+				E923C3FF25B7FE2500B13F69 /* InvoiceVC.swift in Sources */,
+				E9AFA0EB25E8D9AE00E74070 /* InvoiceSummaryCustomerTableViewCell.swift in Sources */,
+				E923C40B25B80DA600B13F69 /* CustomerStatementTableViewCell.swift in Sources */,
 				E9DE3D7225A805CF006B9910 /* SceneDelegate.swift in Sources */,
+				E923C41125B8349700B13F69 /* CreateInvoiceVC.swift in Sources */,
+				E92309EA25B73615003E6FD2 /* ReceiptVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +448,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -275,7 +503,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,6 +515,7 @@
 		};
 		E9DE3D8425A805D2006B9910 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07932D167BE3E1575B27513F /* Pods-World Tech IT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -306,6 +535,7 @@
 		};
 		E9DE3D8525A805D2006B9910 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F853426F513497D207B1530D /* Pods-World Tech IT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

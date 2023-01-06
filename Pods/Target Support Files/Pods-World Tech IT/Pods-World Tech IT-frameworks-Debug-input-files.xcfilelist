@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-World Tech IT/Pods-World Tech IT-frameworks.sh
+${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/ShimmerSwift/ShimmerSwift.framework
+${BUILT_PRODUCTS_DIR}/SimplePDF/SimplePDF.framework
+${BUILT_PRODUCTS_DIR}/SkeletonView/SkeletonView.framework

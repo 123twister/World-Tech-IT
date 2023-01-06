@@ -1,0 +1,28 @@
+PODS:
+  - ShimmerSwift (2.1.1)
+  - SimplePDF (3.0.0)
+  - SkeletonView (1.13.0)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - ShimmerSwift
+  - SimplePDF
+  - SkeletonView
+  - SVProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - ShimmerSwift
+    - SimplePDF
+    - SkeletonView
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  ShimmerSwift: f7ed2daf9c246de8299dfd9e12c6ab465cba9842
+  SimplePDF: 903143ede36965886997a5c1bc6b8940b082ba20
+  SkeletonView: 2b14cb767a7da384d17d5d7e1db0d55a6cf9566a
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 06f1045813e2d143e549f6fb3c0c2cfe891dd8f8
+
+COCOAPODS: 1.10.1
